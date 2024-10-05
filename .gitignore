@@ -1,2 +1,4 @@
 .venv/*
 envs/mednist.env
+notebooks/outputs/*
+.vscode/settings.json
