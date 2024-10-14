@@ -1,0 +1,15 @@
+epochs: 20
+finetune_frac: 0.1
+ftune_batchsize: 1024
+in_channels: 1
+loss: CrossEntropyLoss
+lr: 1e-3
+num_workers: 2
+optimizer: AdamW
+out_channels: 6
+spatial_dims: 2
+test_frac: 0.1
+train_batchsize: 1024
+val_interval: 1
+torch_device: "cuda:0"
+pretrained: True

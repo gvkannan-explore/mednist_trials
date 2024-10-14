@@ -2,3 +2,6 @@
 envs/mednist.env
 notebooks/outputs/*
 .vscode/settings.json
+*.jpeg
+*.gz
+*.env

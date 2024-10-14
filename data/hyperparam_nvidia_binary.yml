@@ -1,0 +1,16 @@
+epochs: 20
+finetune_frac: 0.1
+ftune_batchsize: 1024
+in_channels: 1
+loss: BCELogitLoss
+lr: 1e-4
+wd: 1e-2
+num_workers: 2
+optimizer: AdamW
+out_channels: 2
+spatial_dims: 2
+test_frac: 0.1
+train_batchsize: 1024
+val_interval: 1
+torch_device: "cuda:0"
+pretrained: True
